@@ -37,8 +37,8 @@ Choose exactly one:
 
 Decision standards:
 
-- `BUY`: Attractive business and valuation with favorable risk/reward after considering counterarguments.
-- `WATCH`: Potentially attractive, but valuation, uncertainty, timing, or missing evidence prevents action.
+- `BUY`: Attractive business and valuation with favorable risk/reward after considering counterarguments and material uncertainties, where the current price adequately compensates for those uncertainties.
+- `WATCH`: Potentially attractive, but the current price does not clearly compensate for remaining uncertainties, or the expectation gap is not yet large enough to act.
 - `PASS`: Insufficient quality, unattractive risk/reward, poor evidence, or better alternatives likely exist.
 - `SELL`: Existing holding no longer meets the investment case, has impaired fundamentals, or offers unfavorable forward risk/reward.
 
@@ -51,6 +51,7 @@ Answer in plain language:
 - What does the current price seem to believe?
 - What do we believe differently, based on evidence?
 - Is the gap large enough to justify the decision?
+- Are the remaining uncertainties already compensated by the current price?
 
 Tie the answer to the 1-3 key variables.
 

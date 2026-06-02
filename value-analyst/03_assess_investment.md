@@ -123,6 +123,7 @@ Address:
 - Dependence on optimistic assumptions.
 - Sensitivity to valuation multiples, margins, growth, reinvestment, owner earnings quality, and balance sheet risk.
 - Opportunity cost versus other investments or waiting.
+- Whether waiting for more evidence could eliminate the expectation gap before uncertainty is resolved.
 
 This section may state whether the opportunity appears attractive, unattractive, or inconclusive, but must not make the final `BUY`, `WATCH`, `PASS`, or `SELL` recommendation.
 
