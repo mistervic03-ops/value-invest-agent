@@ -94,6 +94,16 @@ Never skip steps. If a step cannot be completed, state what is missing and how t
    - Choose one of: `BUY`, `WATCH`, `PASS`, or `SELL`.
    - Explain the decision in plain language.
 
+## Optional Deep-Analysis Skills
+
+The repository includes optional skill documents under `skills/`. These are not default workflow stages. Use them only when they can materially change the investment judgment.
+
+Before using any optional skill, ask what decision, expectation gap, owner earnings range, primary uncertainty, or error test could change. If the answer is unclear, do not use the skill.
+
+- `skills/normalized_owner_earnings.md`: use when owner earnings quality, capex, SBC, working capital, cyclicality, non-GAAP adjustments, or other distortions could change the decision.
+- `skills/expectation_decomposition.md`: use when price-implied expectations, the expectation gap, or the decision-dominant variable is unclear, especially near a `BUY` / `WATCH` or `WATCH` / `PASS` boundary.
+- `skills/bear_thesis_construction.md`: use when a `BUY` candidate, smooth thesis, cheap-looking stock, or dominant assumption needs a stronger error test.
+
 ## Storage Structure
 
 Completed analyses must be stored according to `06_storage.md`.

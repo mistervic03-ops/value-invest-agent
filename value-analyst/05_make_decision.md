@@ -20,6 +20,8 @@ Use the completed outputs from:
 
 If any required prior step is incomplete, do not make a recommendation. State what is incomplete and what must be finished before a decision can be made.
 
+Before making the final decision, check whether any optional skill output should update the decision. Use `skills/normalized_owner_earnings.md`, `skills/expectation_decomposition.md`, or `skills/bear_thesis_construction.md` only if the relevant judgment remains unresolved and the skill could change the final label, primary uncertainty, expectation gap, or what-would-change-my-mind triggers.
+
 ## Required Sections
 
 Use these sections exactly.

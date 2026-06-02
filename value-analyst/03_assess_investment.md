@@ -18,6 +18,8 @@ Use the completed outputs from:
 
 If prior steps are incomplete, state what is missing and how that limits the investment assessment.
 
+If owner earnings quality could materially change the judgment, use `skills/normalized_owner_earnings.md`. If price-implied expectations or the decision-dominant variable are unclear, use `skills/expectation_decomposition.md`. Use these only when they can change the investment assessment.
+
 Before beginning valuation work, create `.work/numerical_anchors.md` as a lightweight verification artifact. This is not a separate workflow stage. It exists only to verify valuation-sensitive numbers that will be used in this step, separate reported numbers from calculated numbers and estimates, and preserve enough calculation detail for the investment assessment to be reproducible.
 
 Include only numbers that can materially affect valuation, owner earnings, expectation gap, balance sheet judgment, or dilution. Do not turn this into a comprehensive financial model or source summary.

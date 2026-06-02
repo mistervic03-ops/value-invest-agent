@@ -19,6 +19,8 @@ Use the completed outputs from:
 
 If prior steps are incomplete, state what is missing and how that limits the challenge process.
 
+If the thesis is a `BUY` candidate, appears too smooth, depends heavily on one decision-dominant expectation, or the existing challenge feels generic, use `skills/bear_thesis_construction.md`. Use it only when a stronger bear thesis could change the judgment.
+
 ## Required Sections
 
 Use these sections exactly.

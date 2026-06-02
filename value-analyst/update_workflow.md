@@ -21,6 +21,8 @@ If the prior memo is unavailable, do not use this workflow. Run the full analysi
 
 If new evidence is too limited to update the judgment responsibly, state that limitation and keep the decision impact inconclusive.
 
+If new evidence makes the prior decision-dominant variable unclear or obsolete, use `skills/expectation_decomposition.md`. If new evidence materially changes cash conversion, capex, SBC, working capital, cyclicality, or other owner earnings distortions, use `skills/normalized_owner_earnings.md`. Use optional skills only when they can change the decision impact.
+
 ## Scope
 
 Focus only on changes since the prior memo.
