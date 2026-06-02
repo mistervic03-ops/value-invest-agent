@@ -1,8 +1,8 @@
 # value-invest-agent
 
-가치투자 에이전트를 위한 분석 틀입니다.
+가치투자 에이전트를 위한 분석 프레임워크입니다.
 
-이 저장소는 종목 추천을 자동으로 찍어내는 가치평가 도구가 아닙니다. 에이전트가 기업을 이해하고, 증거를 검토하고, 현재 가격에 담긴 기대와 실제 증거 사이의 차이를 판단하도록 돕는 작업 체계입니다.
+이 저장소는 종목 추천을 자동으로 찍어내는 가치평가 엔진이 아닙니다. 에이전트가 기업을 이해하고, 증거를 검토하고, 현재 가격에 담긴 기대와 실제 증거 사이의 차이를 판단하도록 돕는 작업 체계입니다.
 
 핵심 질문은 하나입니다.
 
@@ -60,9 +60,9 @@ value-analyst/
 
 특히 사용자에게 보여주는 분석 결과는 한국어로 작성하도록 정해져 있습니다. 회사명, 티커, FCF, ROIC, 10-K처럼 그대로 쓰는 편이 더 명확한 표현은 예외입니다.
 
-### 2. 단계별 작업 흐름
+### 2. 단계별 워크플로우
 
-`00`부터 `05`까지의 작업 흐름은 에이전트가 성급하게 결론으로 뛰어가지 않도록 잡아줍니다.
+`00`부터 `05`까지의 워크플로우는 에이전트가 성급하게 결론으로 뛰어가지 않도록 잡아줍니다.
 
 - [`00_required_sources.md`](value-analyst/00_required_sources.md): 필수 자료와 자료 기록
 - [`01_understand_business.md`](value-analyst/01_understand_business.md): 사업 모델과 경제성 이해
@@ -71,7 +71,7 @@ value-analyst/
 - [`04_challenge_thesis.md`](value-analyst/04_challenge_thesis.md): 가장 강한 반론과 오류 검증
 - [`05_make_decision.md`](value-analyst/05_make_decision.md): 최종 `BUY` / `WATCH` / `PASS` / `SELL`
 
-### 3. 판단 추적 작업 흐름
+### 3. 판단 추적 워크플로우
 
 [`update_workflow.md`](value-analyst/update_workflow.md)는 기존 투자 메모를 다시 전부 분석하지 않고 업데이트할 때 사용합니다.
 
@@ -87,7 +87,7 @@ value-analyst/
 
 ### 4. 선택적 심화 분석 문서
 
-[`value-analyst/skills/`](value-analyst/skills)는 기본 작업 흐름이 아닙니다. 특정 판단이 아직 흐릴 때만 여는 보조 문서입니다.
+[`value-analyst/skills/`](value-analyst/skills)는 기본 워크플로우가 아닙니다. 특정 판단이 아직 흐릴 때만 여는 보조 문서입니다.
 
 - [`normalized_owner_earnings.md`](value-analyst/skills/normalized_owner_earnings.md): 보고 이익, FCF, SBC, 설비투자, 운전자본, 경기순환 등이 owner earnings 판단을 흐릴 때
 - [`expectation_decomposition.md`](value-analyst/skills/expectation_decomposition.md): 현재 가격이 무엇을 믿는지, 판단을 좌우하는 기대가 무엇인지 불명확할 때
@@ -122,7 +122,7 @@ companies/
 value-analyst/companies/
 ```
 
-즉, GitHub에는 분석 체계, 작업 흐름, 템플릿, 보조 분석 문서만 저장합니다. 특정 회사의 분석 결과는 내 컴퓨터에만 남깁니다.
+즉, GitHub에는 분석 체계, 워크플로우, 템플릿, 보조 분석 문서만 저장합니다. 특정 회사의 분석 결과는 내 컴퓨터에만 남깁니다.
 
 ## 사용 예시
 
